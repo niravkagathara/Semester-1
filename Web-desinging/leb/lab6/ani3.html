@@ -1,0 +1,57 @@
+<html>
+<head>
+       <title>animataion 3 </title>
+       <style type="text/css">
+     .niv{ background-color: green;
+       top:0px;
+       left: 0px;
+        position: absolute;
+        height: 30vh;
+        width: 15%;
+        animation-name: ani;
+        animation-duration: 5s;
+        animation-delay: 2s;
+        
+        
+
+     }
+     @keyframes ani{
+       0%{
+              left: 0px;
+              background-color: green;
+              transform: rotate(180deg);
+              
+       }
+       25%{
+              left: 1000px;
+              top: 0px;
+            background-color: red;
+            transform: rotate(360deg);
+       }
+       50%{
+              left: 1000px;
+              top: 500px;
+            background-color: green;
+            transform: rotate(0deg);
+       }
+       75%{
+              left: 0px;
+              top: 500px;
+            background-color: red;
+            transform: rotate(180deg);
+       }
+       100%{
+              left: 0px;
+              top: 0px;
+            background-color: green;
+            transform: rotate(360deg);
+       }
+
+     } 
+
+</style>
+</head>
+<body>
+<div class="niv"></div>
+</body>
+</html>

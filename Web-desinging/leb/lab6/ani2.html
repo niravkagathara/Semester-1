@@ -1,0 +1,54 @@
+<html>
+<head>
+	<title>animataion 2 </title>
+	<style type="text/css">
+     .niv{ background-color: green;
+       top:0px;
+       left: 0px;
+     	 position: absolute;
+     	 height: 30vh;
+     	 width: 15%;
+     	 animation-name: ani;
+     	 animation-duration: 3s;
+        animation-delay: 2s;
+        animation-timing-function: linear;
+        animation-direction: reverse;
+        animation-iteration-count: infinite;
+     	
+
+     }
+     @keyframes ani{
+     	0%{
+     		left: 0px;
+     		background-color: green;
+              
+     	}
+       25%{
+              left: 1000px;
+              top: 0px;
+            background-color: red;
+       }
+       50%{
+              left: 1000px;
+              top: 500px;
+            background-color: green;
+       }
+     	75%{
+     		left: 0px;
+              top: 500px;
+            background-color: red;
+     	}
+       100%{
+              left: 0px;
+              top: 0px;
+            background-color: green;
+       }
+
+     } 
+
+</style>
+</head>
+<body>
+<div class="niv"></div>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<html>
+<head>
+<title>
+    Student Registration 
+</title>
+<style type="text/css">
+
+	body{                                                                                   
+		background-image: linear-gradient( 45deg, red, rgb(107, 41, 116), blue);
+	}
+	</style></head>
+<body>
+	<h1> Student Registration</h1>
+  
+ <form>
+ 	<table>
+ 		<tr>
+ 			<td> Full Name </td>
+ 			<td> : </td>
+ 			<td> <input type="text"  name="name" placeholder="Enter your fullname"></td>
+ 		</tr>
+
+ 		<tr>
+ 			<td> E mail </td>
+ 			<td> : </td>
+ 			<td> <input type="text"  name="email" required pattern="[a-z]{2}[0-9]{3}"></td>
+
+ 		</tr>
+
+ 		<tr>
+ 			<td> Mobile No. </td>
+ 			<td> : </td>
+            <td><input type="number" name="mobile" maxlength="10" placeholder="enter mobile no.">   </td>
+ 		</tr>
+
+ 		<tr>
+ 			<td> Adress </td>
+ 			<td> : </td>
+ 			<td> <textarea name="message" rows="8" cols="35" > </textarea> </td>
+ 		</tr>
+
+ 		<tr>
+ 			<td>Nationality </td>
+ 			<td> : </td>
+ 			<td> <input type="text"  name="nationality" placeholder="Nationality enter"></td>
+ 		</tr>
+
+ 		<tr>
+ 			<td> DOB </td>
+ 			<td> : </td>
+ 			<td> <input type="date" id="birthday" name="birthday"> </td>
+ 		</tr>
+
+ 		<tr>
+ 			<td> Gender </td>
+ 			<td> : </td>
+ 			<td> <input type="radio" name="gender" checked>Male
+ 				<input type="radio"  name="gender" >Female 
+            </td>
+ 		</tr>
+
+ 		<tr>                                                             
+ 			<td> Highest Degree</td>
+ 			<td> : </td>
+ 			<td> 
+ 				<select> 
+ 					<option> B.E </option>
+                    <option> Bsc it</option>
+ 					<option> B.tech</option>
+ 					<option> Bca</option>
+ 					<option> Diplo</option>
+ 				</select> </td>
+ 		</tr>
+
+ 		<tr>
+ 			<td> CPI / PR. </td>
+ 			<td> : </td>
+ 			<td> <input type="text"  name="pr" placeholder="Enter percentange"></td>
+ 		</tr>
+
+ 		<tr>
+ 			<td> University / Board </td>
+ 			<td> :</td>
+ 			<td> <input type="text"  name="university" placeholder="Enter university" ></td>
+ 		</tr>
+
+ 		<tr>
+ 			<td> Passing Year </td>
+ 			<td>:</td>
+ 			<td> 
+ 				<select>
+ 					<option>select year</option>
+ 					<option>2022</option>
+ 					<option>2021</option>
+ 					<option>2020</option>
+ 					<option>2019</option>
+ 					<option>2018</option>
+ 					<option>2017</option>
+ 					<option>2016</option>
+ 					<option>2015</option>
+ 				</select>
+ 			</td>
+ 		</tr>
+
+ 		<tr>
+ 			<td colspan="3" align="right">
+ 				<input type="submit" name="submit" value="Submit">
+ 				<input type="reset" name="reset" value="reset">
+ 			</td>
+ 		</tr>
+
+ 	</table>
+</form>
+</body>
+</html>

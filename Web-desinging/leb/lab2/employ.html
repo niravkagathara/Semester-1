@@ -1,0 +1,120 @@
+<html>
+
+<head>
+    <title>
+        Employ Registration
+    </title>
+    <style type="text/css">
+
+        body{                                                                                   
+            background-image: linear-gradient( 45deg, red, rgb(107, 41, 116), blue);
+        }
+        </style>
+</head>
+
+<body>
+    <h3><u> Employ Registration</u></h3>
+
+    <form >
+        <fieldset id="info">
+        <table >
+            <legend>Personal Info</legend>
+            <tr>
+                <td> Employ id </td>
+                <td> : </td>
+                <td> <input type="text" name=" employ id" placeholder="Employ id"></td>
+            </tr>
+            <tr>
+                <td> Name </td>
+                <td> : </td>
+                <td> <input type="text" name=" name" placeholder="Name"></td>
+            </tr>
+
+            <tr>
+                <td> Email </td>
+                <td> : </td>
+                <td> <input type="email" name="email" placeholder="Email"></td>
+
+            </tr>
+
+            <tr>
+                <td> Mobile No. </td>
+                <td> : </td>
+                <td> <input type="text" name="mobile number" placeholder="Enter mobile no." required pattern="[0-9]{9}">
+                </td>
+            </tr>
+            <tr>
+                <td> Merital status</td>
+                <td> : </td>
+                <td>
+                    <select>
+                        <option> Merried</option>
+                        <option> Not Merried</option>
+
+                    </select>
+                </td>
+            </tr>
+      
+           
+
+        </table>
+    </fieldset>
+    <fieldset>
+        <legend>Education/Experience</legend>
+        <table>
+            <tr>
+                <td>Education</td>
+                <td>:</td>
+                <td ><input type="text" name="" placeholder="Enter your education"></td>
+            </tr>
+
+            <tr>
+                <td>experience-year</td>
+                <td>:</td>
+                <td ><input type="number" name="" placeholder="Enter your experience-year"></td>
+            </tr>
+
+           
+        </table>
+    </fieldset>
+
+    <fieldset>
+        <legend>Job Details</legend>
+        <table>
+            <tr>
+                <td>Designation</td>
+                <td>:</td>
+                <td ><input type="text" name="" placeholder="Enter your designation"></td>
+            </tr>
+
+            <tr>
+                <td>Job Location</td>
+                <td>:</td>
+                <td><select>
+                    <option>Ahmedabad</option>
+                    <option>Rajkot</option>
+                    <option>Jamnagar</option>
+                    <option>Baroda</option>
+                    <option>Surat</option>
+                    <option>Other</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Salary</td>
+                <td>:</td>
+                <td ><input type="number" name="" placeholder="Enter your salary"></td>
+            </tr>
+        </table>
+    </fieldset>
+     <table>
+             <tr>
+                <td colspan="3" align="right">
+                    <input type="submit" name="" value="Submit">
+                    <input type="Reset" name="" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

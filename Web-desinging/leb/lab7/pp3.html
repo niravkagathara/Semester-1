@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .d1{
+            width: 25%;
+            height: 60px;
+            background-color: red;
+            
+        }
+        .d2{
+            width: 25%;
+            height: 60px;
+            background-color: green;
+
+            
+        }
+        .d3{   width: 25%;
+            height: 60px;
+            background-color: blue;
+
+            
+        }
+        .d4{
+            width: 25%;
+            height: 60px;
+            background-color: black;
+
+            
+        }
+        @media screen {
+             .d1, .d2, .d3, .d4{
+                float: left;
+       }
+        }
+        @media screen and (min-width:600px) and (max-width:900px) {
+            .d1, .d2, .d3, .d4{
+                float: left;
+                width: 50%;
+            }
+        }
+        @media screen and (max-width:600px) {
+            .d1, .d2, .d3, .d4{
+                float: left;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="d1"></div>
+    <div class="d2"></div>
+    <div class="d3"></div>
+    <div class="d4"></div>
+</body>
+</html>
